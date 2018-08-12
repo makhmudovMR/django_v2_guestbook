@@ -10,6 +10,9 @@
 <body>
     <nav class="navbar navbar-light bg-light">
       <span class="navbar-brand mb-0 h1">GuestBook</span>
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="{% url 'sign' %}">Sign</a>
+        </div>
     </nav>
     {% block body %}
     {% endblock %}
